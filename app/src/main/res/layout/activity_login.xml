@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/x_login_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="579dp"
+        android:layout_height="226dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@mipmap/ic_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/x_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E-Mail"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true"
+                tools:ignore="TextFields,UnusedAttribute" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/x_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Passwort"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                tools:ignore="UnusedAttribute" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/x_login_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:onClick="onLogin"
+            android:text="Einloggen"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:backgroundTint="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/x_password_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:onClick="onPasswordReset"
+            android:text="@string/passwort_vergessen"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/x_register_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:onClick="onRegister"
+            android:text="@string/registrieren"
+            android:textColor="@color/blue" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/x_login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="75dp"
+        android:visibility="gone" />
+
+</FrameLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MusiConnect</string>
+    <string name="passwort_vergessen"><u>Passwort vergessen?</u></string>
+    <string name="registrieren"><u>Registrieren</u></string>
+    <string name="k_nstlerkalender"><u>Künstlerkalender</u></string>
+</resources>
