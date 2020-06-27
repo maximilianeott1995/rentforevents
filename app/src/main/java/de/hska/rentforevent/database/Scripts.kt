@@ -1,4 +1,4 @@
-package de.hska.musiconnect.database
+package de.hska.rentforevent.database
 
 import android.provider.BaseColumns
 

@@ -1,12 +1,12 @@
-package de.hska.musiconnect.actionbars
+package de.hska.rentforevent.actionbars
 
 import android.content.Intent
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import de.hska.musiconnect.R
-import de.hska.musiconnect.activities.LoginActivity
+import de.hska.rentforevent.R
+import de.hska.rentforevent.activities.LoginActivity
 
 open class LogoutActionBar : AppCompatActivity() {
 

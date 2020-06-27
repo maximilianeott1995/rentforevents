@@ -1,4 +1,4 @@
-package de.hska.musiconnect.activities
+package de.hska.rentforevent.activities
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -12,11 +12,10 @@ import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.view.WindowManager
-import androidx.core.widget.addTextChangedListener
-import de.hska.musiconnect.R
-import de.hska.musiconnect.helpers.Toaster.showToast
-import de.hska.musiconnect.models.Login
-import de.hska.musiconnect.services.LoginService
+import de.hska.rentforevent.R
+import de.hska.rentforevent.helpers.Toaster.showToast
+import de.hska.rentforevent.models.Login
+import de.hska.rentforevent.services.LoginService
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.coroutines.*
 

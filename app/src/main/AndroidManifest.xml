@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.hska.musiconnect">
+    package="de.hska.rentforevent">
 
     <application
         android:allowBackup="true"
@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/ic_band"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.ProfileActivity"/>
-        <activity android:name=".activities.MainActivity"/>
-        <activity android:name=".activities.RegisterActivity" />
-        <activity android:name=".activities.LoginActivity">
+        <activity android:name="de.hska.rentforevent.activities.ProfileActivity"/>
+        <activity android:name="de.hska.rentforevent.activities.MainActivity"/>
+        <activity android:name="de.hska.rentforevent.activities.RegisterActivity" />
+        <activity android:name="de.hska.rentforevent.activities.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".actionbars.LogoutActionBar"/>
-        <activity android:name=".actionbars.ActionBar"/>
+        <activity android:name="de.hska.rentforevent.actionbars.LogoutActionBar"/>
+        <activity android:name="de.hska.rentforevent.actionbars.ActionBar"/>
     </application>
 </manifest>

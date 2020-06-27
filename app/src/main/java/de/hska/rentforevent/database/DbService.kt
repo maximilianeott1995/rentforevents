@@ -1,10 +1,10 @@
-package de.hska.musiconnect.database
+package de.hska.rentforevent.database
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import de.hska.musiconnect.database.Scripts.SQL_CREATE_USER_TABLE
-import de.hska.musiconnect.database.Scripts.SQL_DELETE_USER_TABLE
+import de.hska.rentforevent.database.Scripts.SQL_CREATE_USER_TABLE
+import de.hska.rentforevent.database.Scripts.SQL_DELETE_USER_TABLE
 
 class DbService(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
     override fun onCreate(db: SQLiteDatabase) {

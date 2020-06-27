@@ -1,4 +1,4 @@
-package de.hska.musiconnect.helpers
+package de.hska.rentforevent.helpers
 
 import android.content.Context
 import android.widget.Toast

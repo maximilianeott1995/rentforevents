@@ -1,4 +1,4 @@
-package de.hska.musiconnect.activities
+package de.hska.rentforevent.activities
 
 import android.animation.Animator
 import android.animation.AnimatorListenerAdapter
@@ -9,11 +9,11 @@ import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
-import de.hska.musiconnect.R
-import de.hska.musiconnect.actionbars.ActionBar
-import de.hska.musiconnect.helpers.Toaster.showToast
-import de.hska.musiconnect.models.Register
-import de.hska.musiconnect.services.RegisterService
+import de.hska.rentforevent.R
+import de.hska.rentforevent.actionbars.ActionBar
+import de.hska.rentforevent.helpers.Toaster.showToast
+import de.hska.rentforevent.models.Register
+import de.hska.rentforevent.services.RegisterService
 import kotlinx.android.synthetic.main.activity_register.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

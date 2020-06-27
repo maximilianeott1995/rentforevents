@@ -1,4 +1,4 @@
-package de.hska.musiconnect.adapter
+package de.hska.rentforevent.adapter
 
 import android.content.Context
 import android.content.Intent
@@ -8,9 +8,9 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import de.hska.musiconnect.R
-import de.hska.musiconnect.activities.ProfileActivity
-import de.hska.musiconnect.models.ServiceProvider
+import de.hska.rentforevent.R
+import de.hska.rentforevent.activities.ProfileActivity
+import de.hska.rentforevent.models.ServiceProvider
 
 class ServiceProviderAdapter(var serviceProviders: List<ServiceProvider>, val context: Context) : RecyclerView.Adapter<ServiceProviderAdapter.ServiceProviderViewHolder>() {
 

@@ -1,4 +1,4 @@
-package de.hska.musiconnect.models
+package de.hska.rentforevent.models
 
 import java.io.Serializable
 

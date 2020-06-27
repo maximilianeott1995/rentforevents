@@ -1,13 +1,13 @@
-package de.hska.musiconnect.services
+package de.hska.rentforevent.services
 
 import android.content.Context
 import android.provider.BaseColumns
 import com.himanshurawat.hasher.HashType
 import com.himanshurawat.hasher.Hasher
-import de.hska.musiconnect.database.DbService
-import de.hska.musiconnect.database.UserContract
-import de.hska.musiconnect.helpers.Toaster.showToast
-import de.hska.musiconnect.models.Login
+import de.hska.rentforevent.database.DbService
+import de.hska.rentforevent.database.UserContract
+import de.hska.rentforevent.helpers.Toaster.showToast
+import de.hska.rentforevent.models.Login
 
 class LoginService(private val context: Context) {
     private val db = DbService(context).readableDatabase

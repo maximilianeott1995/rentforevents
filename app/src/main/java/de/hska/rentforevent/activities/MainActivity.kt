@@ -1,4 +1,4 @@
-package de.hska.musiconnect.activities
+package de.hska.rentforevent.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,10 +8,10 @@ import android.widget.ArrayAdapter
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import de.hska.musiconnect.R
-import de.hska.musiconnect.actionbars.LogoutActionBar
-import de.hska.musiconnect.adapter.ServiceProviderAdapter
-import de.hska.musiconnect.models.ServiceProvider
+import de.hska.rentforevent.R
+import de.hska.rentforevent.actionbars.LogoutActionBar
+import de.hska.rentforevent.adapter.ServiceProviderAdapter
+import de.hska.rentforevent.models.ServiceProvider
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 

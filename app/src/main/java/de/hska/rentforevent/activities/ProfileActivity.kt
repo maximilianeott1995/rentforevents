@@ -1,9 +1,9 @@
-package de.hska.musiconnect.activities
+package de.hska.rentforevent.activities
 
 import android.os.Bundle
-import de.hska.musiconnect.R
-import de.hska.musiconnect.actionbars.ActionBar
-import de.hska.musiconnect.models.ServiceProvider
+import de.hska.rentforevent.R
+import de.hska.rentforevent.actionbars.ActionBar
+import de.hska.rentforevent.models.ServiceProvider
 import kotlinx.android.synthetic.main.activity_profile.*
 
 class ProfileActivity : ActionBar() {
