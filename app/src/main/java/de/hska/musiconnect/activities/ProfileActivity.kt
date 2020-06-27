@@ -3,7 +3,7 @@ package de.hska.musiconnect.activities
 import android.os.Bundle
 import de.hska.musiconnect.R
 import de.hska.musiconnect.actionbars.ActionBar
-import de.hska.musiconnect.models.Artist
+import de.hska.musiconnect.models.ServiceProvider
 import kotlinx.android.synthetic.main.activity_profile.*
 
 class ProfileActivity : ActionBar() {
@@ -15,11 +15,11 @@ class ProfileActivity : ActionBar() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
-        val artist = intent.getSerializableExtra("artist") as Artist
-        x_profile_artist_name.text = artist.name
-        x_profile_artist_rating.text = artist.rating
-        x_profile_artist_location.text = artist.city
-        x_profile_artist_price.text = artist.price
-        x_profile_artist_genre.text = artist.genre
+        val serviceProvider = intent.getSerializableExtra("serviceProvider") as ServiceProvider
+        x_profile_serviceProvider_name.text = serviceProvider.name
+        x_profile_serviceProvider_rating.text = serviceProvider.rating
+        x_profile_serviceProvider_location.text = serviceProvider.city
+        x_profile_serviceProvider_price.text = serviceProvider.price
+        x_profile_serviceProvider_industry.text = serviceProvider.industry
     }
 }

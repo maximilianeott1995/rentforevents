@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="100dp"
     android:background="@drawable/rectangle">
 
     <TextView
-        android:id="@+id/x_artist_name"
+        android:id="@+id/x_serviceProvider_name"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -19,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/x_artist_rating"
+        android:id="@+id/x_serviceProvider_rating"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="81dp"
@@ -28,28 +29,28 @@
         android:layout_marginBottom="10dp"
         android:text="8.8/10"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/x_artist_city"
+        app:layout_constraintBottom_toTopOf="@+id/x_serviceProvider_city"
         app:layout_constraintEnd_toStartOf="@+id/x_profile_button"
         app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/x_artist_name" />
+        app:layout_constraintTop_toBottomOf="@+id/x_serviceProvider_name" />
 
     <TextView
-        android:id="@+id/x_artist_genre"
-        android:layout_width="80dp"
-        android:layout_height="19dp"
+        android:id="@+id/x_serviceProvider_industry"
+        android:layout_width="107dp"
+        android:layout_height="18dp"
         android:layout_marginStart="67dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="42dp"
         android:layout_marginBottom="10dp"
         android:text="Hip-Hop"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/x_artist_rating"
+        app:layout_constraintBottom_toTopOf="@+id/x_serviceProvider_rating"
         app:layout_constraintEnd_toStartOf="@+id/x_profile_button"
-        app:layout_constraintStart_toEndOf="@+id/x_artist_name"
+        app:layout_constraintStart_toEndOf="@+id/x_serviceProvider_name"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/x_artist_city"
+        android:id="@+id/x_serviceProvider_city"
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="81dp"
@@ -63,15 +64,16 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:layout_marginStart="12dp"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:src="@mipmap/ic_avatar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/x_profile_button"
